@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #
 
 
-  s.source       = { :git => "https://github.com/martijndeh/Haxcessibility.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/martijndeh/Haxcessibility.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -126,7 +126,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = false
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
