@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Haxcessibility"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Haxcessibility is a use case–driven remote control for Mac apps by Mac apps"
 
   s.description  = <<-DESC
